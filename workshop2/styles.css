@@ -1,3 +1,30 @@
-.example-text {
-  color: red;
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  padding: 0 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.75);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background: white;
+  width: 100vw;
+}
+
+.logo {
+  height: 100px;
+  width: auto;
+}
+
+.container {
+  margin-top: 100px;
+  background-color: #DDD;
+  height: 3000px;
 }
