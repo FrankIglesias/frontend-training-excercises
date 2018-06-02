@@ -1,5 +1,7 @@
 $(document).ready(function(){
   $("p").hover(function(){
-    $(this).text('4324234');
+    $(this).text('Pasaste el mouse por arriba');
   });
+  
+  $('.paragraph').css('color','green');
 });
